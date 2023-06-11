@@ -479,6 +479,9 @@ img {
   top: 24px;
   cursor: pointer;
 }
+.close-icon {
+  /* margin: 0 auto; */
+}
 
 .is-hidden {
   visibility: hidden;
