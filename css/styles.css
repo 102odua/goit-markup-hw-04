@@ -73,11 +73,12 @@ img {
   display: flex;
   align-items: center;
 }
+
 .nav-menu {
   display: flex;
   align-items: center;
-  /* flex-grow: 1; */
-}
+  }
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -87,39 +88,47 @@ img {
   text-transform: uppercase;
   color: var(--second-color);
   margin-right: 76px;
-}
+   }
+
 .header-span {
   color: var(--main-color);
 }
+
 .nav-item {
   display: flex;
   max-width: 261px;
   gap: 40px;
 }
+
 .nav-link {
 }
+
 .nav-link .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--pressed-color);
   padding: 24px 0;
   display: block;
   transition: color var(--transition-auto);
 }
+
 .nav-link .link:hover,
 .nav-link .link:focus {
   color: var(--pressed-color);
 }
+
 .contacts {
   font-style: normal;
   margin-left: auto;
 }
+
 .contacts-link {
   display: flex;
   gap: 40px;
 }
+
 .contacts .link {
   font-size: 16px;
   line-height: 1.5;
@@ -129,14 +138,17 @@ img {
   display: block;
   transition: color var(--transition-auto);
 }
+
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--pressed-color);
 }
+
 .under-line {
   position: relative;
   color: var(--pressed-color);
 }
+
 .under-line::after {
   position: absolute;
   content: "";
@@ -148,6 +160,7 @@ img {
   background-color: var(--pressed-color);
   bottom: -1px;
 }
+
 /*----------------------- hero -------------- */
 .hero {
   background-color: #2e2f42;
@@ -576,6 +589,7 @@ fill: #ffffff;
 }
 .portfolio-item-link {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
   
 }
 .portfolio-item-mode {
@@ -593,7 +607,7 @@ fill: #ffffff;
   width: 100%;
   top: 0;
   left: 0;
-  padding: 40px 32px 164px 32px;
+  padding: 40px 32px;
   transform: translateY(100%);
   transition: transform var(--transition-auto);
 }
@@ -605,7 +619,7 @@ border-color: var(--light-color);
 .portfolio-item:focus {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229;
 } */
-.portfolio-item-link:hover .portfolio-item-text {
+.portfolio-item-link:hover .portfolio-item-text:focus {
   transform: translateY(0);
   transition: transform var(--transition-auto);
 }
