@@ -387,7 +387,7 @@ img {
   height: 100%;
   border: 1px solid;
   border-radius: 4px;
-  transition: fill var(--transition-auto),
+  transition: border-color var(--transition-auto),
     color var(--transition-auto);
   display: flex;
   align-items: center;
@@ -456,8 +456,11 @@ img {
   display: flex;
   gap: 16px;
 }
+.footer-soc-li {
+ 
+}
 .footer-soc-link {
-  height: 40px;
+ height: 40px;
   width: 40px;
   display: block;
   background-color: var(--second-color);
@@ -619,7 +622,7 @@ border-color: var(--light-color);
 .portfolio-item:focus {
   box-shadow: 0px 2px 1px 0px #2e2f4214, 0px 1px 1px 0px #2e2f4229;
 } */
-.portfolio-item-link:hover .portfolio-item-text:focus {
+.portfolio-item-link:hover .portfolio-item-text, .portfolio-item-link:focus .portfolio-item-text {
   transform: translateY(0);
   transition: transform var(--transition-auto);
 }
