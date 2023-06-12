@@ -381,14 +381,13 @@ img {
 .customers-item {
   max-width: 168px;
   height: 88px;
-  transition: border-color var(--transition-auto), color var(--transition-auto);
 }
 .customers-link {
   width: 100%;
   height: 100%;
   border: 1px solid;
   border-radius: 4px;
-
+  transition: border-color var(--transition-auto), color var(--transition-auto);
   display: flex;
   align-items: center;
   justify-content: center;
