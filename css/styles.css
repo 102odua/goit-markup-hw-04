@@ -234,7 +234,6 @@ img {
 }
 .advtg-icon {
   width: 100%;
-  margin: 24px 0;
 }
 .advtg-list {
   display: flex;
@@ -379,7 +378,7 @@ img {
   gap: 24px;
 }
 .customers-item {
-  max-width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 .customers-link {
@@ -395,7 +394,6 @@ img {
 }
 .customers-icon {
   fill: currentColor;
-  margin: 16px 32px;
 }
 .customers-link:hover,
 .customers-link:focus {
